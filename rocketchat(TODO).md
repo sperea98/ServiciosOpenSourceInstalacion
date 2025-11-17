@@ -1,7 +1,7 @@
 # Instalación de Rocket.Chat en Ubuntu 24.04
 
 ## Requisitos previos
-- Ubuntu 24.04 LTS
+- Ubuntu 22.04 (jammy jellyfish)
 - Acceso root o sudo
 - CPU: 4 núcleos
 - Mínimo 2GB RAM / Recomendado 8GB
@@ -21,7 +21,7 @@ sudo apt install -y curl wget git build-essential
 
 ### 3. Instalar Node.js
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
